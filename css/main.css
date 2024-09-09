@@ -1,0 +1,87 @@
+body {
+    margin: 60px auto;
+    width: 70%;
+    background-image: url('Morris_green_pattern.jpg');
+}
+
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: #999;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    color: #333;
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em;
+}
+
+ul.posts li {
+    list-style: none;
+}
+
+.row {
+  display:flex;
+  overflow: hidden;
+  align-items:center;
+  justify-content:center;
+}
+
+.column1 {
+  width: 30%;
+  align-items:center;
+  justify-content:center;
+}
+.column2 {
+  width: 40%;
+  align-items:center;
+  justify-content:center;
+}
+.column3 {
+  width: 30%;
+  align-items:center;
+  justify-content:center;
+}
+
+@media screen and (max-width: 1425px) {
+
+  .row{
+    display:block;
+    align-items:center;
+    justify-content:center;
+  }
+
+  .column1, .column2, .column3 {
+    width: 100%;
+    display: block; 
+    float: none; 
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+
+  }
+}
