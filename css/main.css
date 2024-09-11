@@ -52,7 +52,7 @@ ul.posts li {
 }
 
 .column1 {
-  width: 40%;
+  width: 30%;
   align-items:center;
   justify-content:center;
 }
@@ -62,7 +62,7 @@ ul.posts li {
   justify-content:center;
 }
 .column3 {
-  width: 10%;
+  width: 20%;
   align-items:center;
   justify-content:center;
 }
